@@ -11,3 +11,21 @@ Parameters
 Return
 ------
 """
+
+import pytest
+
+from pathlib import Path
+
+from templateproject import *
+
+test_path = Path(__file__)
+
+
+@pytest.fixture(scope="module")
+def fixture():
+    yield
+
+
+@pytest.mark.usefixtures("fixture")
+class Test:
+    pass
