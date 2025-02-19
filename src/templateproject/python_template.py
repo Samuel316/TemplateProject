@@ -26,6 +26,11 @@ Return
 
 def main():
     """
+    Parameters
+    ----------
+
+    Return
+    ------
     
     """
     pass
@@ -33,6 +38,11 @@ def main():
 
 class Class:
     """
+    Parameters
+    ----------
+
+    Return
+    ------
     
     """
     def __init__(self):
