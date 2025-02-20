@@ -4,6 +4,6 @@ A simple Python project template, it's really only made to save me time when sta
 
 ## Dependencies
 
--- [uv](https://docs.astral.sh/uv/getting-started/)
+- [uv](https://docs.astral.sh/uv/getting-started/)
 
 ## Installation
