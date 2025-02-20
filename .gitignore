@@ -1,15 +1,18 @@
+# Ignore all secrets
+**/secrets.py
+
 # IntelliJ project files
 .idea
 out
 gen
+
+.ruff_cache
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
 profile_default/
 ipython_config.py
-
-.python-version
 
 celerybeat-schedule
 
