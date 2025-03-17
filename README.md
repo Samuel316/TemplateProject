@@ -6,4 +6,44 @@ A simple Python project template, it's really only made to save me time when sta
 
 - [uv](https://docs.astral.sh/uv/getting-started/)
 
-## Installation
+## Setup
+
+
+### Install in development mode
+
+```bash
+uv sync
+```
+
+## Project Structure
+
+```
+TemplateProject/
+├── src/                  # Source code
+├── tests/                # Unit tests
+├── requirements.txt      # Project dependencies
+├── pyproject.toml        # Project metadata and build configuration
+└── README.md             # This file
+```
+
+## Usage
+
+```python
+from template_project import main
+
+main.run()
+```
+
+## Development
+
+### Running tests
+
+```bash
+pytest
+```
+
+
+## License
+
+MIT
+
